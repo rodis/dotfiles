@@ -1,0 +1,15 @@
+/*
+!/.inputrc
+!/.ipython*
+!/.vim*
+!/.gvim*
+!/.gitconfig
+!/.gitignore
+!/.gitexcludes
+!/.gitmodules
+!/.ackrc
+!/.itermcolors
+!/.tmux.conf
+!/.vim/*
+!/com.googlecode.iterm2.plist
+.viminfo

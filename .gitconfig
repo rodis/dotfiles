@@ -1,0 +1,19 @@
+[user]
+    name = Rosario Di Somma
+    user = rosariod
+    email = rosario.disomma@dreamhost.com
+
+[color]
+    diff = auto
+    status = auto
+    branch = auto
+
+[core]
+    excludesfile = /Users/rods/.gitignore_global
+
+[alias]
+    dh-review = "!review() { branch=$1; [ -z $branch ] && branch=master; git push origin HEAD:refs/for/$branch; }; review"
+    info = remote show origin
+
+[gitreview]
+    username = mr-rods
