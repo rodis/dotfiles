@@ -10,6 +10,6 @@
 !/.ackrc
 !/.itermcolors
 !/.tmux.conf
-!/.htoprc
+!/.config*
 !/com.googlecode.iterm2.plist
 .viminfo
