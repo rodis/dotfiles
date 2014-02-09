@@ -1,8 +1,6 @@
 /*
 !/.inputrc
 !/.ipython*
-!/.vim*
-!/.gvim*
 !/.gitconfig
 !/.gitignore
 !/.gitexcludes
@@ -12,4 +10,4 @@
 !/.tmux.conf
 !/.config*
 !/com.googlecode.iterm2.plist
-.viminfo
+!/.aliases
