@@ -1,7 +1,14 @@
-## http://www.cyberciti.biz/tips/bash-aliases-mac-centos-linux-unix.html
-
-## get rid of command not found ##
+alias c='clear'
 alias cd..='cd ..'
+alias ll='ls -la'
+
+_myos="$(uname)"
+
+if [ $_myos == 'Linux' ];
+then
+    alias apt-get="sudo apt-get"
+    alias ports='netstat -tulanp'
+fi
 
 ## a quick way to get out of current directory ##
 alias ..='cd ..'
@@ -14,17 +21,7 @@ alias .5='cd ../../../../..'
 alias mkdir='mkdir -pv'
 
 ## make mount command output pretty and human readable format
-alias mount='mount |column -t'
-
-## distro specific  - Debian / Ubuntu and friends #
-## install with apt-get
-alias apt-get="sudo apt-get"
-
-## reboot / halt / poweroff
-alias reboot='sudo /sbin/reboot'
-alias poweroff='sudo /sbin/poweroff'
-alias halt='sudo /sbin/halt'
-alias shutdown='sudo /sbin/shutdown'
+alias mountt='mount |column -t'
 
 ## pass options to free ##
 alias meminfo='free -m -l -t'
@@ -37,12 +34,16 @@ alias psmem10='ps auxf | sort -nr -k 4 | head -10'
 alias pscpu='ps auxf | sort -nr -k 3'
 alias pscpu10='ps auxf | sort -nr -k 3 | head -10'
 
-## Get server cpu info ##
-alias cpuinfo='lscpu'
-
 ## set some other defaults ##
 alias df='df -H'
 alias du='du -ch'
 
 ## set emacsclient shortcut
 alias e='emacsclient -t'
+
+## Create a new set of commands
+alias path='echo -e ${PATH//:/\\n}'
+alias now='date +"%T"'
+
+## handy short cuts
+alias h='history'
