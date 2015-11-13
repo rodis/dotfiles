@@ -1,0 +1,8 @@
+# aliases
+source ~/.aliases
+
+# git utils
+export PATH=~/.utils/git-hooks:$PATH
+
+# liquidprompt
+source ~/.utils/liquidprompt/liquidprompt
