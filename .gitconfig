@@ -9,7 +9,7 @@ status = auto
 branch = auto
 
 [core]
-excludesfile = /Users/rods/.gitignore_global
+excludesfile = ~/.gitignore_global
 
 [alias]
 info = remote show origin
