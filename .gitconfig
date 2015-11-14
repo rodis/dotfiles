@@ -1,18 +1,18 @@
 [user]
-    name = Rosario Di Somma
-    user = rosariod
-    email = rosario.disomma@dreamhost.com
+name = Rosario Di Somma
+user = rosariod
+email = rosario.disomma@dreamhost.com
 
 [color]
-    diff = auto
-    status = auto
-    branch = auto
+diff = auto
+status = auto
+branch = auto
 
 [core]
-    excludesfile = /Users/rods/.gitignore_global
+excludesfile = /Users/rods/.gitignore_global
 
 [alias]
-    info = remote show origin
+info = remote show origin
 
 [gitreview]
-    username = mr-rods
+username = mr-rods
