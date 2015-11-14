@@ -3,6 +3,9 @@
     user = rosariod
     email = rosario.disomma@dreamhost.com
 
+[init]
+	templatedir = ~/.git-templates
+
 [color]
     diff = auto
     status = auto
