@@ -6,5 +6,5 @@ source ~/.utils/liquidprompt/liquidprompt
 
 # set virtualenvwrapper
 export VIRTUALENVWRAPPER_VIRTUALENV_ARGS='--no-site-packages'
-export WORKON_HOME=$HOME/devel/envs
+export WORKON_HOME=$HOME/.virtualenvs
 source /usr/local/bin/virtualenvwrapper.sh
