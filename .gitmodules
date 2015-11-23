@@ -1,3 +1,6 @@
 [submodule "liquidprompt"]
 	path = liquidprompt
 	url = git@github.com:nojhan/liquidprompt.git
+[submodule "ssh-ident"]
+	path = ssh-ident
+	url = git@github.com:ccontavalli/ssh-ident.git
