@@ -1,8 +1,8 @@
 # aliases
-source ~/.utils/dotfiles/.aliases
+source ~/.utils/.aliases
 
 # liquidprompt
-source ~/.utils/liquidprompt/liquidprompt
+source ~/.utils/liquidprompt
 
 # set virtualenvwrapper
 export VIRTUALENVWRAPPER_VIRTUALENV_ARGS='--no-site-packages'
