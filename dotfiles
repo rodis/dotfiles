@@ -2,7 +2,7 @@
 source ~/.utils/.aliases
 
 # liquidprompt
-source ~/.utils/liquidprompt
+source ~/.utils/liquidprompt/liquidprompt
 
 # set virtualenvwrapper
 export VIRTUALENVWRAPPER_VIRTUALENV_ARGS='--no-site-packages'
