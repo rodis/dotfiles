@@ -47,3 +47,6 @@ alias now='date +"%T"'
 
 ## handy short cuts
 alias h='history'
+
+## set grep color
+alias grep="grep --color=auto"
