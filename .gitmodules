@@ -4,3 +4,15 @@
 [submodule "ssh-ident"]
 	path = ssh-ident
 	url = https://github.com/ccontavalli/ssh-ident.git
+[submodule ".vim/bundle/vim-gutter"]
+	path = .vim/bundle/vim-gutter
+	url = https://github.com/airblade/vim-gitgutter.git
+[submodule ".vim/bundle/vim-surround"]
+	path = .vim/bundle/vim-surround
+	url = https://github.com/tpope/vim-surround.git
+[submodule ".vim/bundle/molokai"]
+	path = .vim/bundle/molokai
+	url = https://github.com/tomasr/molokai.git
+[submodule ".vim/bundle/chapa.vim"]
+	path = .vim/bundle/chapa.vim
+	url = https://github.com/alfredodeza/chapa.vim.git
