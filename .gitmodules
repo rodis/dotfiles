@@ -16,3 +16,6 @@
 [submodule ".vim/bundle/chapa.vim"]
 	path = .vim/bundle/chapa.vim
 	url = https://github.com/alfredodeza/chapa.vim.git
+[submodule ".vim/bundle/vitality.vim"]
+	path = .vim/bundle/vitality.vim
+	url = https://github.com/sjl/vitality.vim.git
