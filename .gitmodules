@@ -19,3 +19,6 @@
 [submodule ".vim/bundle/vitality.vim"]
 	path = .vim/bundle/vitality.vim
 	url = https://github.com/sjl/vitality.vim.git
+[submodule ".vim/bundle/ctrlp.vim"]
+	path = .vim/bundle/ctrlp.vim
+	url = https://github.com/ctrlpvim/ctrlp.vim.git
