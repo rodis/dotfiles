@@ -42,6 +42,10 @@ set noshowmode
 
 " configure statusline
 let g:lightline = {
+      \ 'active': {
+      \   'left': [ [ 'mode', 'paste'],
+      \             [ 'fugitive', 'filename', 'modified'] ]
+      \ },
       \ 'component_function': {
       \   'fileformat': 'LightLineFileformat',
       \   'filetype': 'LightLineFiletype',
