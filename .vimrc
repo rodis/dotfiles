@@ -21,8 +21,22 @@ set number
 set backspace=indent,eol,start
 set laststatus=2
 
-" ==================== Lightline ====================
-"
+if !has('gui_running')
+  set notimeout
+  set ttimeout
+  set ttimeoutlen=10
+  augroup FastEscape
+    autocmd!
+    au InsertEnter * set timeoutlen=0
+    au InsertLeave * set timeoutlen=1000
+  augroup END
+endif
+
+"""""""""""""""""""""
+"      Plugins      "
+"""""""""""""""""""""
+
+" lightline
 let g:lightline = {
       \ 'active': {
       \   'left': [ [ 'mode', 'paste'],
@@ -140,4 +154,3 @@ endfunction
 function! CtrlPStatusFunc_2(str)
   return lightline#statusline(0)
 endfunction
-
