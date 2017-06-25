@@ -32,7 +32,15 @@ if !has('gui_running')
   augroup END
 endif
 
-" lightline
+" <Esc> key for leaving insert mode is antiquated
+noremap jj <ESC>
+
+" ==================== Lightline ====================
+
+" mode information is displayed in the statusline
+set noshowmode
+
+" configure statusline
 let g:lightline = {
       \ 'component_function': {
       \   'fileformat': 'LightLineFileformat',
