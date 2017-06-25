@@ -33,7 +33,7 @@ if !has('gui_running')
 endif
 
 " <Esc> key for leaving insert mode is antiquated
-noremap jj <ESC>
+inoremap jj <ESC>
 
 " ==================== Lightline ====================
 
