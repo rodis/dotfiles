@@ -44,7 +44,7 @@ set noshowmode
 let g:lightline = {
       \ 'active': {
       \   'left': [ [ 'mode', 'paste'],
-      \             [ 'fugitive', 'filename', 'modified'] ]
+      \             [ 'readonly','fugitive', 'filename', 'modified'] ]
       \ },
       \ 'component_function': {
       \   'fileformat': 'LightLineFileformat',
