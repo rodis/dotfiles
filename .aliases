@@ -50,3 +50,6 @@ alias h='history'
 
 ## set grep color
 alias grep="grep --color=auto"
+
+## workaround issue with htop and tmux
+alias htop="TERM=screen-256color htop"
