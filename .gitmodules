@@ -31,3 +31,6 @@
 [submodule ".vim/bundle/vim-go.vim"]
 	path = .vim/bundle/vim-go.vim
 	url = https://github.com/fatih/vim-go.git
+[submodule ".vim/bundle/tmuxline.vim"]
+	path = .vim/bundle/tmuxline.vim
+	url = https://github.com/edkolev/tmuxline.vim
